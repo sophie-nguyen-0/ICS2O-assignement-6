@@ -13,9 +13,19 @@ if (navigator.serviceWorker) {
   })
 }
 
-/**
- * this function
- */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+const quote = async (URLAddress) => {
+  try {
+    const result = await fetch(URLAddress)
+    const data = await result.json()
+    console.log(data)
+    document.getElementById("quote").innerHTML =
+      '<h4> anime: ' + data.anime + '</h4> <br> <h4> " ' + data.quote + ' " </h4> <br> <h4> - ' + data.character + '</h4>'
+  } catch (error) {
+    console.log(error)
+  }
 }
+
+quote(
+  "https://animechan.vercel.app/api/random"
+)
+
