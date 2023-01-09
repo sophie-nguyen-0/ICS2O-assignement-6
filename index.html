@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit1-05-HTML-Favicon -->
+<html lang="en-ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="My first webpage, with a favicon" />
+    <meta name="keywords" content="mths, ics2o" />
+    <meta name="author" content="sophie nguyen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="canonical"
+      href="https://sophie-nguyen-0.github.io/ICS2O-template-pwa/"
+    />
+    <link rel="manifest" href="/ICS2O-template-pwa/manifest.webmanifest" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--- None blocking for Lighthouse report --->
+    <!--- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously --->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+    </noscript>
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.pink-amber.min.css"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://code.getmdl.io/1.3.0/material.pink-amber.min.css"
+      />
+    </noscript>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <title>xxx</title>
+  </head>
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">hi</span>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="">xxx</a>
+          </nav>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <p></p>
+        <img
+          src="./images/notebook-animation.svg"
+          alt="computer"
+          width="25%"
+          height="25%"
+        />
+        <div class="page-content">xxx</div>
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="myButtonClicked()"
+        >
+          xxx
+        </button>
+        <!--basic text-->
+        <p></p>
+        <div id="hello-world"></div>
+      </main>
+    </div>
+  </body>
+</html>
