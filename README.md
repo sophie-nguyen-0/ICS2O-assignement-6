@@ -1,4 +1,4 @@
-# ICS20-template
+# ICS2O-assignement-6
 
 [![Mr Coxall's Super Linter](https://github.com/sophie-nguyen-0/ICS2O-assignement-6/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/sophie-nguyen-0/ICS2O-assignement-6/actions/)
 
